@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>assets/choose.png</file>
+        <file>assets/choose2.png</file>
+        <file>assets/crown.png</file>
+        <file>assets/edit.png</file>
+        <file>assets/exit.png</file>
+        <file>assets/explorer.png</file>
+        <file>assets/home.png</file>
+        <file>assets/icon.ico</file>
+        <file>assets/info.png</file>
+        <file>assets/new.png</file>
+        <file>assets/play.png</file>
+        <file>assets/question_mark.png</file>
+        <file>assets/save.png</file>
+    </qresource>
+</RCC>
