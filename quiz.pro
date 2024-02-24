@@ -35,6 +35,13 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+copydata.commands = $(COPY_DIR) $$PWD/quizzes $$OUT_PWD | $(COPY_DIR) $$PWD/saved_data $$OUT_PWD
+first.depends = $(first) copydata
+export(first.depends)
+export(copydata.quizzes)
+export(copydata.saved_data)
+QMAKE_EXTRA_TARGETS += first copydata
+
 RESOURCES += \
     res.qrc
 RC_FILE = quiz.rc
