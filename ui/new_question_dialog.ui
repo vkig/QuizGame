@@ -26,7 +26,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Kérdés:</string>
+          <string>Question:</string>
          </property>
         </widget>
        </item>
@@ -132,7 +132,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Válasz:</string>
+          <string>Answear:</string>
          </property>
         </widget>
        </item>
